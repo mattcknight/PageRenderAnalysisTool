@@ -1,0 +1,51 @@
+[18:31:10] INFO  - Start Time = Thursday, March 12, 2015
+[18:31:11] INFO  - Read Connection = Server=DA1MADB802;Database=AppDebug;Trusted_Connection=True
+[18:31:11] INFO  - Write Connection = Server=DA0MASC802D1;Database=Test;User ID=giri;Password=javaiscool;Trusted_Connection=False;
+[18:31:11] INFO  - PageThesholdFlag = False
+[18:31:11] INFO  - TimeoutsFlag = False
+[18:31:11] INFO  - EDHIDFlag = True
+[18:31:11] INFO  - NumWorkerThreads = 1
+[18:31:12] INFO  - End Time = Thursday, March 12, 2015
+[18:31:42] INFO  - Start Time = Thursday, March 12, 2015
+[18:31:47] INFO  - Read Connection = Server=DA1MADB802;Database=AppDebug;Trusted_Connection=True
+[18:31:47] INFO  - Write Connection = Server=DA0MASC802D1;Database=Test;User ID=giri;Password=javaiscool;Trusted_Connection=False;
+[18:31:48] INFO  - PageThesholdFlag = False
+[18:31:48] INFO  - TimeoutsFlag = False
+[18:31:48] INFO  - EDHIDFlag = True
+[18:31:49] INFO  - NumWorkerThreads = 1
+[18:34:12] INFO  - Start Time = Thursday, March 12, 2015
+[18:34:36] INFO  - End Time = Thursday, March 12, 2015
+[18:34:45] INFO  - Start Time = Thursday, March 12, 2015
+[18:34:51] INFO  - End Time = Thursday, March 12, 2015
+[18:36:48] INFO  - Start Time = Thursday, March 12, 2015
+[18:36:48] INFO  - Read Connection = Server=DA1MADB802;Database=AppDebug;Trusted_Connection=True
+[18:36:48] INFO  - Write Connection = Server=DA0MASC802D1;Database=Test;Trusted_Connection=True;
+[18:36:48] INFO  - PageThesholdFlag = True
+[18:36:48] INFO  - TimeoutsFlag = False
+[18:36:48] INFO  - EDHIDFlag = False
+[18:36:48] INFO  - NumWorkerThreads = 1
+[18:37:26] INFO  - End Time = Thursday, March 12, 2015
+[18:42:12] INFO  - Start Time = Thursday, March 12, 2015
+[18:42:12] INFO  - Read Connection = Server=DA1MADB801;Database=AppDebug;Trusted_Connection=True
+[18:42:12] INFO  - Write Connection = Server=MARP03\MAREPORT01;Database=ReportsDevelopment;Trusted_Connection=True
+[18:42:12] INFO  - PageThesholdFlag = True
+[18:42:12] INFO  - TimeoutsFlag = False
+[18:42:12] INFO  - EDHIDFlag = False
+[18:42:12] INFO  - NumWorkerThreads = 1
+[18:42:13] INFO  - Starting PageThresholdPage Threshold at 03/12/2015 18:42:13:  Start Date=03/12/2015 14:55:19,  NextSeqNum=183313956
+[18:44:26] INFO  - Start Time = Thursday, March 12, 2015
+[18:44:26] INFO  - Read Connection = Server=DA1MADB801;Database=AppDebug;Trusted_Connection=True
+[18:44:26] INFO  - Write Connection = Server=MARP03\MAREPORT01;Database=ReportsDevelopment;Trusted_Connection=True
+[18:44:26] INFO  - PageThesholdFlag = True
+[18:44:26] INFO  - TimeoutsFlag = False
+[18:44:26] INFO  - EDHIDFlag = False
+[18:44:26] INFO  - NumWorkerThreads = 1
+[18:44:27] INFO  - Starting PageThresholdPage Threshold at 03/12/2015 18:44:27:  Start Date=03/12/2015 14:55:19,  NextSeqNum=183313956
+[18:44:42] INFO  - Start Time = Thursday, March 12, 2015
+[18:44:43] INFO  - Read Connection = Server=DA1MADB801;Database=AppDebug;Trusted_Connection=True
+[18:44:43] INFO  - Write Connection = Server=MARP03\MAREPORT01;Database=ReportsDevelopment;Trusted_Connection=True
+[18:44:43] INFO  - PageThesholdFlag = True
+[18:44:44] INFO  - TimeoutsFlag = False
+[18:44:44] INFO  - EDHIDFlag = False
+[18:44:44] INFO  - NumWorkerThreads = 1
+[18:46:35] INFO  - Starting PageThresholdPage Threshold at 03/12/2015 18:46:35:  Start Date=03/12/2015 14:55:19,  NextSeqNum=183313956

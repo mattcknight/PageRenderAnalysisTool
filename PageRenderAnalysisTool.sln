@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugAnalysis", "ThresholdAnalysis\DebugAnalysis.csproj", "{77547589-0EF6-496C-BE03-E643E30E4719}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://jupiter:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ThresholdAnalysis\\DebugAnalysis.csproj
+		SccProjectName1 = ThresholdAnalysis
+		SccLocalPath1 = ThresholdAnalysis
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		DEV1|x86 = DEV1|x86
+		Production|x86 = Production|x86
+		QA1|x86 = QA1|x86
+		QA2|x86 = QA2|x86
+		QA3|x86 = QA3|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77547589-0EF6-496C-BE03-E643E30E4719}.Debug|x86.ActiveCfg = Debug|x64
+		{77547589-0EF6-496C-BE03-E643E30E4719}.Debug|x86.Build.0 = Debug|x64
+		{77547589-0EF6-496C-BE03-E643E30E4719}.DEV1|x86.ActiveCfg = DEV1|x86
+		{77547589-0EF6-496C-BE03-E643E30E4719}.DEV1|x86.Build.0 = DEV1|x86
+		{77547589-0EF6-496C-BE03-E643E30E4719}.Production|x86.ActiveCfg = Production|x86
+		{77547589-0EF6-496C-BE03-E643E30E4719}.Production|x86.Build.0 = Production|x86
+		{77547589-0EF6-496C-BE03-E643E30E4719}.Production|x86.Build.2 = Production|x64
+		{77547589-0EF6-496C-BE03-E643E30E4719}.QA1|x86.ActiveCfg = QA1|x86
+		{77547589-0EF6-496C-BE03-E643E30E4719}.QA1|x86.Build.0 = QA1|x86
+		{77547589-0EF6-496C-BE03-E643E30E4719}.QA1|x86.Build.2 = QA1|x64
+		{77547589-0EF6-496C-BE03-E643E30E4719}.QA2|x86.ActiveCfg = QA2|x86
+		{77547589-0EF6-496C-BE03-E643E30E4719}.QA2|x86.Build.0 = QA2|x86
+		{77547589-0EF6-496C-BE03-E643E30E4719}.QA2|x86.Build.2 = QA2|x64
+		{77547589-0EF6-496C-BE03-E643E30E4719}.QA3|x86.ActiveCfg = QA3|x86
+		{77547589-0EF6-496C-BE03-E643E30E4719}.QA3|x86.Build.0 = QA3|x86
+		{77547589-0EF6-496C-BE03-E643E30E4719}.QA3|x86.Build.2 = QA3|x64
+		{77547589-0EF6-496C-BE03-E643E30E4719}.Release|x86.ActiveCfg = Release|x64
+		{77547589-0EF6-496C-BE03-E643E30E4719}.Release|x86.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

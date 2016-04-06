@@ -1,0 +1,291 @@
+[18:31:11] ERROR - Exception encountered
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'giri'.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ThresholdAnalysis.Utils.Util.GetMaxProcessedDate(String writeConnection, String query, Int32& nextSeqNum) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Utils\Util.cs:line 46
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPage(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 82
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPageWithRetry(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 65
+ClientConnectionId:d599cf5e-aa78-4ca9-9ed6-05bc8d132237
+Error Number:18456,State:1,Class:14
+[18:31:11] ERROR - Exception encountered
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'giri'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ThresholdAnalysis.Utils.Util.GetMaxProcessedDate(String writeConnection, String query, Int32& nextSeqNum) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Utils\Util.cs:line 46
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPage(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 82
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPageWithRetry(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 65
+ClientConnectionId:d599cf5e-aa78-4ca9-9ed6-05bc8d132237
+Error Number:18456,State:1,Class:14
+[18:31:11] ERROR - Exception encountered
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'giri'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ThresholdAnalysis.Utils.Util.GetMaxProcessedDate(String writeConnection, String query, Int32& nextSeqNum) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Utils\Util.cs:line 46
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPage(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 82
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPageWithRetry(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 65
+ClientConnectionId:d599cf5e-aa78-4ca9-9ed6-05bc8d132237
+Error Number:18456,State:1,Class:14
+[18:31:11] ERROR - Exception encountered
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'giri'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ThresholdAnalysis.Utils.Util.GetMaxProcessedDate(String writeConnection, String query, Int32& nextSeqNum) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Utils\Util.cs:line 46
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPage(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 82
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPageWithRetry(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 65
+ClientConnectionId:d599cf5e-aa78-4ca9-9ed6-05bc8d132237
+Error Number:18456,State:1,Class:14
+[18:31:11] ERROR - Exception encountered
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'giri'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ThresholdAnalysis.Utils.Util.GetMaxProcessedDate(String writeConnection, String query, Int32& nextSeqNum) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Utils\Util.cs:line 46
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPage(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 82
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPageWithRetry(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 65
+ClientConnectionId:d599cf5e-aa78-4ca9-9ed6-05bc8d132237
+Error Number:18456,State:1,Class:14
+[18:31:12] ERROR - Exception
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'giri'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ThresholdAnalysis.Utils.Util.GetMaxProcessedDate(String writeConnection, String query, Int32& nextSeqNum) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Utils\Util.cs:line 46
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPage(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 82
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPageWithRetry(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 75
+   at ThresholdAnalysis.EDHID.PageEdhid.Execute(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 54
+   at ThresholdAnalysis.Program.Process() in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Program.cs:line 53
+   at ThresholdAnalysis.Program.Main() in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Program.cs:line 63
+ClientConnectionId:d599cf5e-aa78-4ca9-9ed6-05bc8d132237
+Error Number:18456,State:1,Class:14
+[18:32:05] ERROR - Exception encountered
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'giri'.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ThresholdAnalysis.Utils.Util.GetMaxProcessedDate(String writeConnection, String query, Int32& nextSeqNum) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Utils\Util.cs:line 46
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPage(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 82
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPageWithRetry(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 65
+ClientConnectionId:e0548d84-22de-48e2-9678-73d472196337
+Error Number:18456,State:1,Class:14
+[18:32:05] ERROR - Exception encountered
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'giri'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ThresholdAnalysis.Utils.Util.GetMaxProcessedDate(String writeConnection, String query, Int32& nextSeqNum) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Utils\Util.cs:line 46
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPage(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 82
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPageWithRetry(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 65
+ClientConnectionId:e0548d84-22de-48e2-9678-73d472196337
+Error Number:18456,State:1,Class:14
+[18:32:05] ERROR - Exception encountered
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'giri'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ThresholdAnalysis.Utils.Util.GetMaxProcessedDate(String writeConnection, String query, Int32& nextSeqNum) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Utils\Util.cs:line 46
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPage(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 82
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPageWithRetry(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 65
+ClientConnectionId:e0548d84-22de-48e2-9678-73d472196337
+Error Number:18456,State:1,Class:14
+[18:32:05] ERROR - Exception encountered
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'giri'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ThresholdAnalysis.Utils.Util.GetMaxProcessedDate(String writeConnection, String query, Int32& nextSeqNum) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Utils\Util.cs:line 46
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPage(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 82
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPageWithRetry(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 65
+ClientConnectionId:e0548d84-22de-48e2-9678-73d472196337
+Error Number:18456,State:1,Class:14
+[18:32:05] ERROR - Exception encountered
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'giri'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ThresholdAnalysis.Utils.Util.GetMaxProcessedDate(String writeConnection, String query, Int32& nextSeqNum) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Utils\Util.cs:line 46
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPage(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 82
+   at ThresholdAnalysis.EDHID.PageEdhid.ProcessPageWithRetry(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\EDHID\PageEDHID.cs:line 65
+ClientConnectionId:e0548d84-22de-48e2-9678-73d472196337
+Error Number:18456,State:1,Class:14
+[18:34:31] ERROR - Exception
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ThresholdAnalysis.Program.Process() in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Program.cs:line 18
+   at ThresholdAnalysis.Program.Main() in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Program.cs:line 63
+[18:34:46] ERROR - Exception
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ThresholdAnalysis.Program.Process() in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Program.cs:line 18
+   at ThresholdAnalysis.Program.Main() in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Program.cs:line 63
+[18:36:49] ERROR - Exception encountered
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'MATCH\Matt.Knight'.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ThresholdAnalysis.Utils.Util.GetMaxProcessedDate(String writeConnection, String query, Int32& nextSeqNum) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Utils\Util.cs:line 46
+   at ThresholdAnalysis.PageThreshold.PageThreshold.ProcessPage(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\PageThreshold\PageThreshold.cs:line 101
+   at ThresholdAnalysis.PageThreshold.PageThreshold.ProcessPageWithRetry(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\PageThreshold\PageThreshold.cs:line 82
+ClientConnectionId:ee1a5957-bedb-4c0c-b6c6-180e8345ae5c
+Error Number:18456,State:1,Class:14
+[18:36:49] ERROR - Exception encountered
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'MATCH\Matt.Knight'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ThresholdAnalysis.Utils.Util.GetMaxProcessedDate(String writeConnection, String query, Int32& nextSeqNum) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Utils\Util.cs:line 46
+   at ThresholdAnalysis.PageThreshold.PageThreshold.ProcessPage(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\PageThreshold\PageThreshold.cs:line 101
+   at ThresholdAnalysis.PageThreshold.PageThreshold.ProcessPageWithRetry(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\PageThreshold\PageThreshold.cs:line 82
+ClientConnectionId:ee1a5957-bedb-4c0c-b6c6-180e8345ae5c
+Error Number:18456,State:1,Class:14
+[18:36:49] ERROR - Exception encountered
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'MATCH\Matt.Knight'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ThresholdAnalysis.Utils.Util.GetMaxProcessedDate(String writeConnection, String query, Int32& nextSeqNum) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Utils\Util.cs:line 46
+   at ThresholdAnalysis.PageThreshold.PageThreshold.ProcessPage(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\PageThreshold\PageThreshold.cs:line 101
+   at ThresholdAnalysis.PageThreshold.PageThreshold.ProcessPageWithRetry(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\PageThreshold\PageThreshold.cs:line 82
+ClientConnectionId:ee1a5957-bedb-4c0c-b6c6-180e8345ae5c
+Error Number:18456,State:1,Class:14
+[18:36:49] ERROR - Exception encountered
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'MATCH\Matt.Knight'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ThresholdAnalysis.Utils.Util.GetMaxProcessedDate(String writeConnection, String query, Int32& nextSeqNum) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Utils\Util.cs:line 46
+   at ThresholdAnalysis.PageThreshold.PageThreshold.ProcessPage(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\PageThreshold\PageThreshold.cs:line 101
+   at ThresholdAnalysis.PageThreshold.PageThreshold.ProcessPageWithRetry(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\PageThreshold\PageThreshold.cs:line 82
+ClientConnectionId:ee1a5957-bedb-4c0c-b6c6-180e8345ae5c
+Error Number:18456,State:1,Class:14
+[18:36:49] ERROR - Exception encountered
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'MATCH\Matt.Knight'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ThresholdAnalysis.Utils.Util.GetMaxProcessedDate(String writeConnection, String query, Int32& nextSeqNum) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Utils\Util.cs:line 46
+   at ThresholdAnalysis.PageThreshold.PageThreshold.ProcessPage(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\PageThreshold\PageThreshold.cs:line 101
+   at ThresholdAnalysis.PageThreshold.PageThreshold.ProcessPageWithRetry(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\PageThreshold\PageThreshold.cs:line 82
+ClientConnectionId:ee1a5957-bedb-4c0c-b6c6-180e8345ae5c
+Error Number:18456,State:1,Class:14
+[18:37:23] ERROR - Exception
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'MATCH\Matt.Knight'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ThresholdAnalysis.Utils.Util.GetMaxProcessedDate(String writeConnection, String query, Int32& nextSeqNum) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Utils\Util.cs:line 46
+   at ThresholdAnalysis.PageThreshold.PageThreshold.ProcessPage(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\PageThreshold\PageThreshold.cs:line 101
+   at ThresholdAnalysis.PageThreshold.PageThreshold.ProcessPageWithRetry(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\PageThreshold\PageThreshold.cs:line 94
+   at ThresholdAnalysis.PageThreshold.PageThreshold.Execute(String readConnection, String writeConnection) in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\PageThreshold\PageThreshold.cs:line 70
+   at ThresholdAnalysis.Program.Process() in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Program.cs:line 41
+   at ThresholdAnalysis.Program.Main() in c:\Projects\Match\Internal Tools\PageRenderAnalysisTool\ThresholdAnalysis\Program.cs:line 63
+ClientConnectionId:ee1a5957-bedb-4c0c-b6c6-180e8345ae5c
+Error Number:18456,State:1,Class:14
